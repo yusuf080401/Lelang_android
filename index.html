@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Lelang HP Android</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Aplikasi Lelang HP Android</h1>
+    <form id="lelangForm">
+        <div>
+            <label for="itemName">Nama Barang:</label>
+            <input type="text" id="itemName" name="itemName" required>
+        </div>
+        <div>
+            <label for="startingBid">Harga Awal:</label>
+            <input type="number" id="startingBid" name="startingBid" required>
+        </div>
+        <button type="submit">Tambahkan Lelang</button>
+    </form>
+    <div id="lelangList">
+        <h2>Daftar Lelang</h2>
+        <!-- Daftar lelang akan ditambahkan di sini -->
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
